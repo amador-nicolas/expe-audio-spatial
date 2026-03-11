@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMANI – Sound Perception Study | CRNL</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #1A2744 0%, #0E3A5E 40%, #0EA5A0 100%);
+            color: white;
+            padding: 24px;
+        }
+        .card {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(20px);
+            border-radius: 20px;
+            padding: 40px 32px;
+            max-width: 420px;
+            width: 100%;
+            text-align: center;
+        }
+        .badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.15);
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+            margin-bottom: 24px;
+        }
+        h1 {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            font-size: 14px;
+            opacity: 0.8;
+            margin-bottom: 32px;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 16px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            margin-bottom: 12px;
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+        .btn:active { transform: scale(0.97); }
+        .btn-primary {
+            background: white;
+            color: #1A2744;
+        }
+        .btn-secondary {
+            background: rgba(255,255,255,0.15);
+            color: white;
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+        .btn-secondary:hover {
+            background: rgba(255,255,255,0.25);
+        }
+        .icon { margin-right: 8px; }
+        .footer {
+            margin-top: 28px;
+            font-size: 11px;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="badge">COPHY Team – CRNL</div>
+        <h1>Volunteers Needed</h1>
+        <p class="subtitle">EEG study on the perception of spatialized sounds</p>
+
+        <a href="mailto:nicolas.amador@etu.univ-lyon1.fr?subject=Sound Spatialization Study – I am interested" class="btn btn-primary">
+            <span class="icon">✉️</span> Contact us by e-mail
+        </a>
+
+        <a href="../pdfs/AMANI_Flyer_FR.pdf" download class="btn btn-secondary">
+            <span class="icon">🇫🇷</span> Télécharger la version française (PDF)
+        </a>
+
+        <p class="footer">CRNL – INSERM U1028 – Favorable opinion CEEI/IRB n°25-1186</p>
+    </div>
+</body>
+</html>
